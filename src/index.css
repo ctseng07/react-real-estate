@@ -25,27 +25,13 @@
     scroll-behavior: smooth;
 }
 
-/* body {
-    font-family: 'Basier Square', sans-serif;
-    font-weight: 400;
-    line-height: 1.6em;
-    font-size: 15px;
-    color: #5b6674;
+a {
+    color: unset;
+    text-decoration: none;
 }
 
-.h1,
-h1,
-.h2,
-h2,
-.h3,
-h3,
-.h4,
-h4,
-.h5,
-h5,
-.h6,
-h6 {
-    font-family: 'futura-pt', sans-serif;
-    font-weight: 600;
-    color: #443227;
-} */
+
+.slide-bottom {
+    -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
