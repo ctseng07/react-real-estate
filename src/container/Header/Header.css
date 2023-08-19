@@ -1,4 +1,56 @@
-div {
-    font-family: var(--font-alt);
-    color: var(--color-golden);
+/* * {
+    border: 1px solid red;
+} */
+
+.estate__header-content {
+    /* margin: 0px 0px 100px; */
+    /* padding: 80px 0px; */
+    text-align: left;
+}
+
+.estate__header-content_title h6 {
+    opacity: 1;
+    font-size: 13px;
+    line-height: 1.2em;
+    margin: 15px 0 9px;
+    letter-spacing: 0.2em;
+}
+
+.estate__header-content_subheading {
+    font-weight: 600;
+}
+
+.estate__header-content_subheading h1 {
+    font-size: 52px;
+    line-height: 1.2em;
+    margin-top: 1.5rem;
+}
+
+.estate__header-content_subheading p {
+    font-size: 44px;
+    line-height: 1.083em;
+    margin-top: 2rem;
+}
+
+.estate__header-content-body {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 4rem 0;
+    gap: 20px;
+
+}
+
+.estate__header-content-body button {
+    border-radius: 100%;
+    border: 1px solid var(--color-primary);
+    background: var(--color-primary);
+    width: 6.25em;
+    height: 6.25em;
+}
+
+.estate__header-content-body p {
+    font-size: 24px;
+    width: 37%;
+    line-height: 1.6em;
 }
