@@ -21,9 +21,18 @@
 .p__futura {
     color: var(--text-white);
     font-family: var(--font-base);
-    text-transform: capitalize;
+    /* letter-spacing: 0.2em; */
 }
 
 .p__basier {
     font-family: var(--font-alt);
+    color: var(--text-white);
+}
+
+.text__uppercase {
+    text-transform: uppercase;
+}
+
+.text__underline {
+    text-decoration: underline;
 }
