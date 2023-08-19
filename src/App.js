@@ -1,22 +1,20 @@
 import React from 'react';
 
-import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
+import { Header } from './container';
 import { Navbar } from './components';
 import './App.css';
 
 const App = () => (
-  <div>
-    <Navbar />
-    <Header />
-    <AboutUs />
-    <SpecialMenu />
-    <Chef />
-    <Intro />
-    <Laurels />
-    <Gallery />
-    <FindUs />
-    <Footer />
-  </div>
+    <div>
+        <Navbar />
+        <Header />
+        {/* <Pricing />
+        <Features />
+        <Possibility />
+        <Partners />
+        <Contact />
+        <Footer /> */}
+    </div>
 );
 
 export default App;

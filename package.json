@@ -1,7 +1,7 @@
 {
-  "name": "react-rest-page",
+  "name": "react-real-estate-page",
   "version": "0.1.0",
-  "homepage": "https://ctseng07.github.io/react-restaurant-page",
+  "homepage": "https://ctseng07.github.io/react-real-estate-page/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

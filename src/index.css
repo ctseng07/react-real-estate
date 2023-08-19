@@ -1,52 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@font-face {
+    font-family: 'Basier Square';
+    src: url("../../fonts/basiersquare-regular-webfont.woff2") format("woff2"), url("../../fonts/basiersquare-regular-webfont.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
 
 :root {
-  --font-base: 'Cormorant Upright', serif;
-  --font-alt: 'Open Sans', sans-serif;
-  
-  --color-golden: #DCCA87;
-  --color-black: #0C0C0C;
-  --color-gray: #545454;
-  --color-crimson: #F5EFDB;
-  --color-grey: #AAAAAA;
-  --color-white: #FFFFFF;
+    --font-base: 'futura-pt', sans-serif;
+    --font-alt: 'Basier Square', sans-serif;
 }
 
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  scroll-behavior: smooth;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
 }
 
-a {
-  color: unset;
-  text-decoration: none;
+/* body {
+    font-family: 'Basier Square', sans-serif;
+    font-weight: 400;
+    line-height: 1.6em;
+    font-size: 15px;
+    color: #5b6674;
 }
 
-.slide-bottom {
-  -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-
-@-webkit-keyframes slide-bottom {
-  0% {
-    -webkit-transform: translateY(-25%);
-            transform: translateY(-25%);
-  }
-  100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-}
-
-@keyframes slide-bottom {
-  0% {
-    -webkit-transform: translateY(-25%);
-            transform: translateY(-25%);
-  }
-  100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-}
+.h1,
+h1,
+.h2,
+h2,
+.h3,
+h3,
+.h4,
+h4,
+.h5,
+h5,
+.h6,
+h6 {
+    font-family: 'futura-pt', sans-serif;
+    font-weight: 600;
+    color: #443227;
+} */
