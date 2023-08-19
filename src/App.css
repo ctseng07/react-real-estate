@@ -15,3 +15,15 @@
     background-repeat: repeat;
     background-attachment: fixed;
 }
+
+/* TEXT */
+
+.p__futura {
+    color: var(--text-white);
+    font-family: var(--font-base);
+    text-transform: capitalize;
+}
+
+.p__basier {
+    font-family: var(--font-alt);
+}

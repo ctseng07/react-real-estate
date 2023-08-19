@@ -8,6 +8,14 @@
 :root {
     --font-base: 'futura-pt', sans-serif;
     --font-alt: 'Basier Square', sans-serif;
+
+    --color-primary: #e7a285;
+    --footer-bg: #40383C;
+
+    --text-black: #443227;
+    --text-white: #FFFFFF;
+    --text-grey: #ffffff99;
+    --text-dark-grey: #5B6674;
 }
 
 * {
