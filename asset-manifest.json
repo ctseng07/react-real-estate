@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-real-estate-page/static/css/main.fec28a02.css",
+    "main.js": "/react-real-estate-page/static/js/main.d2c90605.js",
+    "static/media/house.jpeg": "/react-real-estate-page/static/media/house.2beb5d881b4e5b89d03c.jpeg",
+    "static/media/logo.png": "/react-real-estate-page/static/media/logo.8a52605dbdc8513b7317.png",
+    "index.html": "/react-real-estate-page/index.html",
+    "static/media/basiersquare-regular-webfont.woff": "/react-real-estate-page/static/media/basiersquare-regular-webfont.31d6cfe0d16ae931b73c.woff",
+    "static/media/basiersquare-regular-webfont.woff2": "/react-real-estate-page/static/media/basiersquare-regular-webfont.31d6cfe0d16ae931b73c.woff2",
+    "main.fec28a02.css.map": "/react-real-estate-page/static/css/main.fec28a02.css.map",
+    "main.d2c90605.js.map": "/react-real-estate-page/static/js/main.d2c90605.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fec28a02.css",
+    "static/js/main.d2c90605.js"
+  ]
+}
