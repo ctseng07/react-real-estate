@@ -16,12 +16,20 @@
     background-attachment: fixed;
 }
 
+.content-bg {
+    background: var(--text-white);
+}
+
 /* TEXT */
 
 .p__futura {
     color: var(--text-white);
     font-family: var(--font-base);
-    /* letter-spacing: 0.2em; */
+}
+
+.p__futura-black {
+    color: var(--text-black);
+    font-family: var(--font-base);
 }
 
 .p__basier {
@@ -35,4 +43,12 @@
 
 .text__underline {
     text-decoration: underline;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
