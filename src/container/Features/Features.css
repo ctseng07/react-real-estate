@@ -1,0 +1,63 @@
+* {
+    border: 1px solid red
+}
+
+.estate__features {
+    padding: 100px 0;
+}
+
+.estate__features-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.estate__features-info {
+    width: 25%;
+}
+
+.estate__features-info button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50em;
+    font-size: 25px;
+    background: var(--color-primary);
+    color: var(--text-white);
+
+    border: 1px solid var(--color-primary);
+    box-shadow: rgba(0, 0, 0, 0.07);
+}
+
+.estate__features-info_title {
+    font-size: 48px;
+    margin-top: 20px;
+    line-height: 1.083em;
+    font-weight: 600;
+
+    margin: 1.25em 0 0.75em;
+}
+
+.estate__features-info_text {
+    color: var(--text-dark-grey);
+    font-size: 18px;
+    margin-bottom: 35px;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+
+.estate__features-image {
+    width: 600px;
+    height: 600px;
+
+    overflow: hidden;
+    background-color: var(--text-white);
+
+}
+
+.estate__features-image img {
+    max-width: 100%;
+    height: auto;
+
+    border-radius: 10px;
+    vertical-align: middle;
+}
