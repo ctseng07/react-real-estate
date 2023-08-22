@@ -1,0 +1,63 @@
+/* * {
+    border: 1px solid red;
+} */
+
+.estate__about {
+    padding: 100px 0;
+}
+
+.estate__about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.estate__about-info {
+    width: 25%;
+}
+
+.estate__about-info_title {
+    font-size: 12px;
+    margin: 1.25em 0 0.75em;
+    letter-spacing: 0.2em;
+    opacity: 1;
+}
+
+.estate__about-info_body {
+    font-size: 28px;
+    line-height: 2.5em;
+    margin-top: 40px;
+}
+
+.estate__about-info_text {
+    font-size: 20px;
+    margin: 0px 0px 35px;
+    line-height: 2.5em;
+}
+
+.estate__about-info_button {
+    background: var(--color-primary);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    padding: 1.3em 2.7em;
+    margin: -0.5px;
+    border: 1px solid var(--color-primary);
+}
+
+.estate__about-info_button:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.05);
+}
+
+.estate__about-image {
+    width: 300px;
+    height: 500px;
+
+    margin-left: 10rem;
+}
+
+.estate__about-image img {
+    max-width: 100%;
+    height: auto;
+}
