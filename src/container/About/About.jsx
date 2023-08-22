@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 import Detect from '../../assets/detect-img.png';
 import './About.css';
@@ -26,8 +26,9 @@ const About = () => {
                         No credit card required.
                     </p>
 
-                    <button className='estate__about-info_button text__uppercase p__futura'>Start Now!</button>
-
+                    <div className="estate__about-button">
+                        <button className='estate__about-info_button text__uppercase p__futura'>Start Now!</button>
+                    </div>
                 </div>
                 <div className="estate__about-image">
                     <img src={Detect} alt="detect_img" />
