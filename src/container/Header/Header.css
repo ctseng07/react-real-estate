@@ -50,6 +50,10 @@
     height: 6.25em;
 }
 
+.estate__header-content-body button:hover {
+    cursor: pointer;
+}
+
 .estate__header-content-body p {
     font-size: 24px;
     width: 37%;
