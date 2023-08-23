@@ -10,6 +10,7 @@ const Menu = () => (
         <p><a href='#home'>HOME</a></p>
         <p><a href='#features'>FEATURES</a></p>
         <p><a href='#about'>ABOUT</a></p>
+        <p><a href='#login'>LOGIN/SIGNUP</a></p>
     </>
 )
 
@@ -17,7 +18,7 @@ const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
 
     return (
-        <div className='estate__navbar estate__bg'>
+        <div className='estate__navbar'>
             <div className="estate__navbar-logo">
                 <img src={logo} alt="Safewatch" />
             </div>
