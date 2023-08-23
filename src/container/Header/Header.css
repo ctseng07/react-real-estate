@@ -43,7 +43,6 @@
     justify-content: flex-start;
     margin: 4rem 0;
     gap: 20px;
-
 }
 
 .estate__header-content-body button {
@@ -60,7 +59,7 @@
 
 .estate__header-content-body p {
     font-size: 24px;
-    width: 37%;
+    width: 50%;
     line-height: 1.6em;
 }
 
