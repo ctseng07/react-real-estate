@@ -1,18 +1,19 @@
 import React from 'react';
 
 import Dashboard from '../../assets/dashboard.png';
-import Icon01 from '../../assets/icon-1.png'
-import Icon02 from '../../assets/icon-2.png'
-import Icon03 from '../../assets/icon-3.png'
+import Checkmark from '../../assets/checkmark.svg';
+import Lightning from '../../assets/lightning.svg';
 
 import "./Features.css";
 
 const Features = () => {
     return (
-        <div className='estate__features section__padding'>
+        <div className='estate__features section__padding' id='features'>
             <div className="estate__features-content">
                 <div className="estate__features-info">
-                    <button className='estate__features-info_button'>Icon</button>
+                    <div className='estate__features-info_icon'>
+                        <img src={Lightning} alt="lightning_img" />
+                    </div>
 
                     <div className="estate__features-info_content">
                         <h2 className='estate__features-info_title p__futura-black'>Create, Connect, Detect!</h2>
@@ -26,9 +27,9 @@ const Features = () => {
                     <div className="estate__features-image_overlay">
                         <div className="estate__features-iconBox">
                             <div className='estate__features-iconBox_icon'>
-                                <div className="estate__features-icon_wrap">
-                                    <div className="estate__features-icon_checkmark">
-
+                                <div className="estate__features-icon_wrap flex__center">
+                                    <div className="estate__features-icon_checkmark flex__center">
+                                        <img src={Checkmark} alt="checkmark_img" />
                                     </div>
                                 </div>
                             </div>
@@ -36,9 +37,9 @@ const Features = () => {
                         </div>
                         <div className="estate__features-iconBox">
                             <div className='estate__features-iconBox_icon'>
-                                <div className="estate__features-icon_wrap">
-                                    <div className="estate__features-icon_checkmark">
-
+                                <div className="estate__features-icon_wrap flex__center">
+                                    <div className="estate__features-icon_checkmark flex__center">
+                                        <img src={Checkmark} alt="checkmark_img" />
                                     </div>
                                 </div>
                             </div>
@@ -46,9 +47,9 @@ const Features = () => {
                         </div>
                         <div className="estate__features-iconBox">
                             <div className='estate__features-iconBox_icon'>
-                                <div className="estate__features-icon_wrap">
-                                    <div className="estate__features-icon_checkmark">
-
+                                <div className="estate__features-icon_wrap flex__center">
+                                    <div className="estate__features-icon_checkmark flex__center">
+                                        <img src={Checkmark} alt="checkmark_img" />
                                     </div>
                                 </div>
                             </div>
@@ -56,9 +57,9 @@ const Features = () => {
                         </div>
                         <div className="estate__features-iconBox">
                             <div className='estate__features-iconBox_icon'>
-                                <div className="estate__features-icon_wrap">
-                                    <div className="estate__features-icon_checkmark">
-
+                                <div className="estate__features-icon_wrap flex__center">
+                                    <div className="estate__features-icon_checkmark flex__center">
+                                        <img src={Checkmark} alt="checkmark_img" />
                                     </div>
                                 </div>
                             </div>
