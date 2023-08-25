@@ -1,4 +1,6 @@
 import React from 'react';
+
+import Play from '../../assets/play-button.svg';
 import './Header.css';
 
 const Header = () => {
@@ -16,7 +18,9 @@ const Header = () => {
                 </div>
 
                 <div className="estate__header-content-body">
-                    <button type='button'>Play</button>
+                    <button type='play_button'>
+                        <img src={Play} alt="playbutton_img" />
+                    </button>
                     <p className='p__basier'>Install in 5 minutes or less, no additional hardware required. Works with all your existing cameras. <br /> 7 days trial period included.</p>
                 </div>
             </div>

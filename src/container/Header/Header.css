@@ -57,6 +57,11 @@
     cursor: pointer;
 }
 
+.estate__header-content-body img {
+    width: 50%;
+    height: auto;
+}
+
 .estate__header-content-body p {
     font-size: 24px;
     width: 50%;
