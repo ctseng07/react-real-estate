@@ -26,9 +26,9 @@ const Navbar = () => {
                 <div className="estate__navbar-links_container">
                     <Menu />
                 </div>
-                <div className="estate__navbar-login">
+                {/* <div className="estate__navbar-login">
                     <p className='p__futura'>LOGIN/SIGNUP</p>
-                </div>
+                </div> */}
             </div>
             <div className="estate__navbar-sidebar">
                 {toggleMenu
@@ -36,7 +36,7 @@ const Navbar = () => {
                     : <RiMenu3Line color='#fff' size={27} onClick={() => setToggleMenu(true)} />
                 }
                 {toggleMenu && (
-                    <div className='estate__navbar-sidebar_overlay flex__center slide-bottom'>
+                    <div className='estate__navbar-sidebar_overlay slide-bottom'>
                         <div className='estate__navbar-sidebar_links'>
                             <Menu />
                         </div>

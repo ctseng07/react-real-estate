@@ -1,6 +1,6 @@
-/* * {
+* {
     border: 1px solid red
-} */
+}
 
 .estate__navbar {
     width: 100%;
@@ -52,6 +52,7 @@
 }
 
 .estate__navbar-sidebar svg {
+    color: var(--text-dark-grey);
     cursor: pointer;
 }
 
@@ -61,11 +62,20 @@
     left: 0;
     width: 100%;
     height: 100vh;
-    background: var(--text-black);
+    background: var(--text-white);
     transition: .5s ease;
+    padding: 2rem 3rem;
 
     flex-direction: column;
     z-index: 5;
+}
+
+.estate__navbar-sidebar_links {
+    font-family: var(--font-alt);
+    color: var(--text-dark-grey);
+    line-height: 1.6em;
+    font-size: 15px;
+    font-weight: 400;
 }
 
 @media screen and (max-width: 1050px) {
