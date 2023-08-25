@@ -63,7 +63,7 @@ const Features = () => {
                                     </div>
                                 </div>
                             </div>
-                            <h3 className='estate__features-iconBox_text p__futura'>Voila</h3>
+                            <h3 className='estate__features-iconBox_text p__futura'>Voila!</h3>
                         </div>
                     </div>
                 </div>
