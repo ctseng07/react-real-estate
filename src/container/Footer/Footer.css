@@ -1,6 +1,6 @@
-/* * {
+* {
     border: 1px solid red;
-} */
+}
 
 .estate__footer {
     background: var(--footer-bg);
@@ -37,12 +37,11 @@
 .estate__footer-img {
     width: 250px;
     height: 54px;
-    margin-right: 20rem;
+    margin-right: 5rem;
 }
 
 .estate__footer-img img {
     max-width: 100%;
-    margin-right: 20rem;
 }
 
 @media screen and (max-width: 1150px) {
