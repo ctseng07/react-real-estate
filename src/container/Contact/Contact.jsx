@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+
+import './Contact.css';
 
 const Contact = () => {
     return (
@@ -10,7 +12,7 @@ const Contact = () => {
                 </div>
 
                 <div className="estate__contact-content_info">
-                    <button className='button'>Create an account</button>
+                    <button className='estate__contact-button p__futura'>Create an account</button>
                     <p className='p_basier'>Do you have a question?</p>
                     <p className='p_basier'>Don't hesitate!</p>
                     <p className='p_basier'>hello@usesafewatch.com</p>

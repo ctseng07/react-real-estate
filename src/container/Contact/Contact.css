@@ -1,3 +1,57 @@
 /* * {
     border: 1px solid red;
 } */
+
+.estate__contact {
+    width: 100%;
+    position: absolute;
+    height: auto;
+    padding-top: 6rem;
+}
+
+.estate__contact-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.estate__contact-content_text p {
+    font-size: 45px;
+    color: var(--text-white);
+    font-weight: 600;
+    margin: 0;
+}
+
+.estate__contact-content_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.estate__contact-button {
+    border-radius: 2px;
+    background: var(--text-white);
+    border: none;
+    color: var(--text-dark);
+    line-height: 2rem;
+    width: 100%;
+    white-space: normal;
+    font-size: 1em;
+    padding: 1em 5em;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.estate__contact-content_info button:hover {
+    cursor: pointer;
+    color: var(--text-white);
+    transition: all .3s ease;
+    background-color: var(--text-dark);
+}
+
+.estate__contact-content_info p {
+    font-size: 1rem;
+    color: var(--text-dark-grey);
+    line-height: 1.6em;
+    margin: 0;
+}
