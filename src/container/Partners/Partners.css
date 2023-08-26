@@ -1,9 +1,10 @@
-* {
+/* * {
     border: 1px solid red;
-}
+} */
 
 .estate__partners {
     padding: 100px 0;
+    margin-bottom: 10rem;
 }
 
 .estate__partners-content {
