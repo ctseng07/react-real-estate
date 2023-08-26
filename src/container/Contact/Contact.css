@@ -4,7 +4,7 @@
 
 .estate__contact {
     width: 100%;
-    position: absolute;
+    /* position: absolute; */
     height: auto;
     padding-top: 6rem;
 }
@@ -51,7 +51,7 @@
 
 .estate__contact-content_info p {
     font-size: 1rem;
-    color: var(--text-dark-grey);
+    color: var(--text-grey);
     line-height: 1.6em;
     margin: 0;
 }

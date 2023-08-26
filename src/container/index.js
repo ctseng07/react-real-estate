@@ -1,12 +1,18 @@
+import About from './About/About';
+import Contact from './Contact/Contact';
+import Features from './Features/Features';
+import Features2 from './Features2/Features2';
 import Header from './Header/Header';
-// import Pricing from './Pricing/Pricing';
+import Partners from './Partners/Partners';
+import Footer from './Footer/Footer';
+
 
 export {
+    About,
+    Contact,
+    Features,
+    Features2,
     Header,
-    // Pricing,
-    // Contact,
-    // Features,
-    // Possibility,
-    // Partners,
-    // Footer,
+    Partners,
+    Footer,
 };

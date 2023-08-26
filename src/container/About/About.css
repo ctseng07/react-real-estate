@@ -38,7 +38,10 @@
 }
 
 .estate__about-info_button {
+    display: flex;
+    align-items: center;
     background: var(--color-primary);
+    color: var(--text-white);
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 0.2em;
@@ -47,9 +50,18 @@
     border: 1px solid var(--color-primary);
 }
 
+.estate__about-button {
+    width: 40%;
+}
+
+.estate__about-button img {
+    width: 15%;
+    height: auto;
+}
+
 .estate__about-info_button:hover {
     cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.05);
+    box-shadow: rgba(0, 0, 0, 0.5);
 }
 
 .estate__about-image {
