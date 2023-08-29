@@ -5,7 +5,7 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <div className='estate__header section__padding estate__bg'>
+        <div className='estate__header estate__bg'>
             <div className="estate__header-content">
                 <div className="estate__header-content_title">
                     <h6 className="p__futura text__uppercase">introducing safewatch</h6>
