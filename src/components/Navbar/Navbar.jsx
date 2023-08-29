@@ -26,9 +26,6 @@ const Navbar = () => {
                 <div className="estate__navbar-links_container">
                     <Menu />
                 </div>
-                {/* <div className="estate__navbar-login">
-                    <p className='p__futura'>LOGIN/SIGNUP</p>
-                </div> */}
             </div>
             <div className="estate__navbar-sidebar">
                 {toggleMenu
