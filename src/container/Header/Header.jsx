@@ -18,9 +18,11 @@ const Header = () => {
                 </div>
 
                 <div className="estate__header-content-body">
-                    <button type='play_button'>
-                        <img src={Play} alt="playbutton_img" />
-                    </button>
+                    <div className="estate__header-button">
+                        <button type='play_button'>
+                            <img src={Play} alt="playbutton_img" />
+                        </button>
+                    </div>
                     <p className='p__basier'>Install in 5 minutes or less, no additional hardware required. Works with all your existing cameras. <br /> 7 days trial period included.</p>
                 </div>
             </div>
