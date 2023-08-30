@@ -7,7 +7,7 @@ import './About.css';
 const About = () => {
     return (
         <div>
-            <div className="estate__about section__padding" id='about'></div>
+            <div className="estate__about" id='about'></div>
             <div className="estate__about-content">
                 <div className="estate__about-info">
                     <h1 className="estate__about-info_title p__futura-black text__uppercase">unlimited detectors</h1>
