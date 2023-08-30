@@ -8,7 +8,7 @@ import './Partners.css';
 
 const Partners = () => {
     return (
-        <div className='estate__partners section__padding'>
+        <div className='estate__partners'>
             <div className="estate__partners-content">
                 <div className="estate__partners-content_container">
                     <div className="estate__partners-content_info">
@@ -20,7 +20,7 @@ const Partners = () => {
                     </div>
                 </div>
 
-                <div className="estate__overlay">
+                <div className="estate__partners_overlay">
                     <div className="estate__partners-image">
                         <img src={ZapierImg} alt="zapierPage-img" />
                     </div>
@@ -28,8 +28,8 @@ const Partners = () => {
                     <div className="estate__partners-content_overlay">
                         <div className="estate__partners-iconBox">
                             <div className='estate__partners-iconBox_icon'>
-                                <div className="estate__partners-icon_wrap flex__center">
-                                    <div className="estate__partners-icon_checkmark flex__center">
+                                <div className="estate__partners-icon_wrap">
+                                    <div className="estate__partners-icon_checkmark">
                                         <img src={Checkmark} alt="checkmark_img" />
                                     </div>
                                 </div>
@@ -41,8 +41,8 @@ const Partners = () => {
 
                         <div className="estate__partners-iconBox">
                             <div className='estate__partners-iconBox_icon'>
-                                <div className="estate__partners-icon_wrap flex__center">
-                                    <div className="estate__partners-icon_checkmark flex__center">
+                                <div className="estate__partners-icon_wrap">
+                                    <div className="estate__partners-icon_checkmark">
                                         <img src={Checkmark} alt="checkmark_img" />
                                     </div>
                                 </div>

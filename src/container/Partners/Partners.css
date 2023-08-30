@@ -1,29 +1,5 @@
-/* * {
+* {
     border: 1px solid red;
-} */
-
-.estate__partners {
-    padding: 100px 0;
-    margin-bottom: 10rem;
-}
-
-.estate__partners-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-
-    gap: 6rem;
-}
-
-.estate__partners-content_container {
-    width: 100%;
-
-}
-
-.estate__partners-content_info {
-    width: 82.5%;
 }
 
 .estate__partners-content_info h2 {
@@ -54,7 +30,6 @@
 }
 
 .estate__partners-image {
-    width: 600px;
     overflow: hidden;
     background-color: var(--text-white);
     display: inline-block;
@@ -64,27 +39,15 @@
 .estate__partners-image img {
     display: block;
     max-width: 100%;
-    height: auto;
-
     border-radius: 10px;
     vertical-align: middle;
 }
 
 .estate__partners-content_overlay {
-    position: absolute;
-    left: 80%;
-    top: 287%;
-    transform: translate(-50%, -50%);
-    margin-bottom: 0;
+    position: relative;
     background: var(--text-white);
-    padding: 3rem 1.5rem;
-    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.08);
-
-    width: 17%;
-}
-
-.estate__partners-iconBox {
-    display: flex;
+    padding: 35px 35px 15px;
+    box-shadow: 0px 2px 14px 0px rgba(0, 0, 0, 0.82);
 }
 
 .estate__partners-icon_wrap {
@@ -95,8 +58,12 @@
     margin: 0px 15px 0px 0px;
 }
 
-.estate__partners-iconBox_icon {
-    margin-top: 0.5rem;
+.estate__partners-iconBox,
+.estate__partners-icon_wrap,
+.estate__partners-icon_checkmark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .estate__partners-iconBox_text {
@@ -110,7 +77,7 @@
 
 
 .estate__partners-iconBox h3 {
-    font-size: 18px;
+    font-size: 16px;
     color: var(--text-dark);
     font-weight: 600;
     line-height: 2.5em;
@@ -123,24 +90,56 @@
 
 .estate__partners-icon_checkmark img {
     width: 100%;
-    height: 100%;
 }
 
 @media screen and (min-width: 1200px) {
-    .estate__partners-content_container {
-        float: left;
-        width: 42%;
-        position: relative;
-        min-height: 1px;
-        padding-left: 15px;
-        padding-right: 15px;
+    .estate__partners {
+        padding: 4rem 6rem;
+    }
+
+    .estate__partners-content {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .estate__partners-content_info {
+        max-width: 25vw;
+    }
+
+    .estate__partners_overlay {
+        min-width: 680px;
+    }
+
+    .estate__partners-content_overlay {
+        margin-top: -30%;
+        margin-left: 45%;
+    }
+
+    .estate__partners-image {
+        max-width: 600px;
     }
 }
 
-@media screen and (min-width: 992px) {
-    .estate__partners-content_container {
-        width: 29%;
-        margin-bottom: 0;
-        padding-top: 4.5rem;
+@media screen and (max-width: 1200px) {
+    .estate__partners {
+        padding: 1rem 2rem;
+    }
+
+    .estate__partners-content {
+        flex-direction: column;
+    }
+
+    .estate__partners-content_info {
+        max-width: 100%;
+    }
+
+    .estate__partners-image {
+        max-width: 100%;
+    }
+
+    .estate__partners-content_overlay {
+        margin-top: -20%;
     }
 }
+
+@media screen and (min-width: 992px) {}
