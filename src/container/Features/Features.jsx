@@ -8,7 +8,7 @@ import "./Features.css";
 
 const Features = () => {
     return (
-        <div className='estate__features section__padding' id='features'>
+        <div className='estate__features' id='features'>
             <div className="estate__features-content">
                 <div className="estate__features-info">
                     <div className='estate__features-info_icon'>
@@ -20,15 +20,15 @@ const Features = () => {
                         <p className='estate__features-info_text p__futura'>To start detecting is as easy as 1-2-3.</p>
                     </div>
                 </div>
-                <div className="estate__overlay">
+                <div className="estate__features-overlay">
                     <div className="estate__features-image">
                         <img src={Dashboard} alt="dashboard-img" />
                     </div>
-                    <div className="estate__features-image_overlay">
+                    <div className="estate__features-iconBox_overlay">
                         <div className="estate__features-iconBox">
                             <div className='estate__features-iconBox_icon'>
-                                <div className="estate__features-icon_wrap flex__center">
-                                    <div className="estate__features-icon_checkmark flex__center">
+                                <div className="estate__features-icon_wrap">
+                                    <div className="estate__features-icon_checkmark">
                                         <img src={Checkmark} alt="checkmark_img" />
                                     </div>
                                 </div>
@@ -37,8 +37,8 @@ const Features = () => {
                         </div>
                         <div className="estate__features-iconBox">
                             <div className='estate__features-iconBox_icon'>
-                                <div className="estate__features-icon_wrap flex__center">
-                                    <div className="estate__features-icon_checkmark flex__center">
+                                <div className="estate__features-icon_wrap">
+                                    <div className="estate__features-icon_checkmark">
                                         <img src={Checkmark} alt="checkmark_img" />
                                     </div>
                                 </div>
@@ -47,8 +47,8 @@ const Features = () => {
                         </div>
                         <div className="estate__features-iconBox">
                             <div className='estate__features-iconBox_icon'>
-                                <div className="estate__features-icon_wrap flex__center">
-                                    <div className="estate__features-icon_checkmark flex__center">
+                                <div className="estate__features-icon_wrap">
+                                    <div className="estate__features-icon_checkmark">
                                         <img src={Checkmark} alt="checkmark_img" />
                                     </div>
                                 </div>
@@ -57,8 +57,8 @@ const Features = () => {
                         </div>
                         <div className="estate__features-iconBox">
                             <div className='estate__features-iconBox_icon'>
-                                <div className="estate__features-icon_wrap flex__center">
-                                    <div className="estate__features-icon_checkmark flex__center">
+                                <div className="estate__features-icon_wrap">
+                                    <div className="estate__features-icon_checkmark">
                                         <img src={Checkmark} alt="checkmark_img" />
                                     </div>
                                 </div>
