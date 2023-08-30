@@ -1,11 +1,6 @@
-* {
+/* * {
     border: 1px solid red;
-}
-
-.estate__features2 {
-    padding-top: 90px;
-    padding-bottom: 65px;
-}
+} */
 
 .estate__features2-content {
     display: flex;
@@ -17,6 +12,7 @@
     flex-direction: column;
     align-items: center;
     max-width: 100%;
+    margin-bottom: 1rem;
 }
 
 .estate__features2-container_img {
@@ -57,9 +53,17 @@
     min-width: 100%;
 }
 
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+    .estate__features2 {
+        padding: 4rem 6rem;
+    }
+}
 
 @media screen and (max-width: 1200px) {
+    .estate__features2 {
+        padding: 1rem 2rem;
+    }
+
     .estate__features2-content {
         flex-direction: column;
     }

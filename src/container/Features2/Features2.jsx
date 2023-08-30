@@ -8,7 +8,7 @@ import "./Features2.css";
 
 const Features2 = () => {
     return (
-        <div className='estate__features2 section__padding'>
+        <div className='estate__features2'>
             <div className="estate__features2-content">
                 <div className="estate__features2-content_container">
                     <div className="estate__features2-container_img">
