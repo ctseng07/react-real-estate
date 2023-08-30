@@ -1,13 +1,12 @@
-/* * {
+* {
     border: 1px solid red;
-} */
+}
 
-.estate__contact {
+/* .estate__contact {
     width: 100%;
-    /* position: absolute; */
     height: auto;
     padding-top: 6rem;
-}
+} */
 
 .estate__contact-content {
     display: flex;
@@ -54,4 +53,20 @@
     color: var(--text-grey);
     line-height: 1.6em;
     margin: 0;
+}
+
+@media screen and (min-width: 1200px) {
+    .estate__contact {
+        padding: 4rem 6rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .estate__contact {
+        padding: 1rem 2rem;
+    }
+
+    .estate__contact-content {
+        flex-direction: column;
+    }
 }
