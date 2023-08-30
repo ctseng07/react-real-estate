@@ -121,6 +121,7 @@
 @media screen and (max-width: 1200px) {
     .estate__partners {
         padding: 1rem 2rem;
+        margin-bottom: 50px;
     }
 
     .estate__partners-content {
