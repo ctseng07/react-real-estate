@@ -2,6 +2,10 @@
     border: 1px solid red
 } */
 
+.estate__features {
+    margin-bottom: 100px;
+}
+
 .estate__features-info {
     max-width: 100vw;
 }
@@ -44,7 +48,6 @@
 }
 
 .estate__features-image {
-    max-width: 600px;
     overflow: hidden;
     background-color: var(--text-white);
     display: inline-block;
@@ -122,6 +125,10 @@
         margin-left: 50%;
     }
 
+    .estate__features-image {
+        max-width: 600px;
+    }
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -141,6 +148,10 @@
     .estate__features-iconBox_overlay h3 {
         font-size: 16px;
         line-height: 2.5em;
+    }
+
+    .estate__features-image {
+        max-width: 100%;
     }
 }
 
