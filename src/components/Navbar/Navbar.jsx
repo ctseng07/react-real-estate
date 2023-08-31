@@ -16,9 +16,22 @@ const Menu = () => (
 
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
+    // const [estate__navbar, setNavbar] = useState(false);
+
+    // const changeBackground = () => {
+    //     if (window.scrollY >= 1000) {
+    //         setNavbar(true)
+    //     } else {
+    //         setNavbar(false);
+    //     }
+    //     console.log(window.scrollY);
+    // };
+
+    // window.addEventListener('scroll', changeBackground);
 
     return (
-        <div className='estate__navbar'>
+        <div className="estate__navbar">
+            {/* <div className={estate__navbar ? "estate__navbar active" : estate__navbar}> */}
             <div className="estate__navbar-logo">
                 <img src={logo} alt="Safewatch" />
             </div>

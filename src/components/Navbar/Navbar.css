@@ -4,15 +4,19 @@
 
 .estate__navbar {
     width: 100%;
-    position: absolute;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    /* z-index: 10; */
     padding: 1rem 2rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    position: absolute;
+    /* top: 0;
+    z-index: 1030; */
 }
+
+/* .estate__navbar.active {
+    background: var(--text-dark-grey);
+} */
 
 .estate__navbar-logo {
     max-width: 100px;
@@ -32,7 +36,7 @@
     font-size: 13px;
     gap: 30px;
     padding: 10px;
-    padding-right: 200px;
+    padding-right: 100px;
 }
 
 .estate__navbar-links_container {
@@ -67,8 +71,6 @@
     padding: 2rem;
 
     display: flex;
-    /* justify-content: flex-end;
-    align-items: flex-end; */
     flex-direction: column;
 }
 
@@ -82,7 +84,11 @@
 
 
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1200px) {
+    .estate__navbar {
+        background: var(--text-dark-grey);
+    }
+
     .estate__navbar-links {
         display: none;
     }
@@ -90,13 +96,10 @@
     .estate__navbar-sidebar {
         display: flex;
     }
+
 }
 
 @media screen and (max-width: 650px) {
-    .estate__navbar {
-        padding: 1rem;
-    }
-
     .estate__navbar-logo img {
         width: 110px;
     }
