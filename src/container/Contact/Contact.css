@@ -1,11 +1,5 @@
-* {
+/* * {
     border: 1px solid red;
-}
-
-/* .estate__contact {
-    width: 100%;
-    height: auto;
-    padding-top: 6rem;
 } */
 
 .estate__contact-content {
@@ -63,10 +57,14 @@
 
 @media screen and (max-width: 1200px) {
     .estate__contact {
-        padding: 1rem 2rem;
+        padding: 3rem 1rem;
     }
 
     .estate__contact-content {
         flex-direction: column;
+    }
+
+    .estate__contact-content_text {
+        margin-bottom: 2rem;
     }
 }
