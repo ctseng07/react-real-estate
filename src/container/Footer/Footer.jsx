@@ -6,7 +6,7 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-        <div className='estate__footer section__padding'>
+        <div className='estate__footer'>
             <div className="estate__footer-content">
                 <div className="estate__footer-content_logo">
                     <img src={logo} alt="logo_img" />
