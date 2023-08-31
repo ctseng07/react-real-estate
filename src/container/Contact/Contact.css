@@ -49,13 +49,13 @@
     margin: 0;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1150px) {
     .estate__contact {
         padding: 4rem 6rem;
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1150px) {
     .estate__contact {
         padding: 3rem 1rem;
     }
@@ -64,7 +64,21 @@
         flex-direction: column;
     }
 
+    .estate__contact-content_text p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .estate__contact-content_text {
         margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .estate__contact-content_text p {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
 }
