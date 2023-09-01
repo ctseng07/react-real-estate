@@ -5,6 +5,7 @@ import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 
 import logo from '../../assets/logo.png'
 import './Navbar.css';
+import FeaturesList from '../DropDownList/FeaturesList';
 
 const Menu = () => (
     <>
@@ -18,6 +19,7 @@ const Menu = () => (
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
     const [estate__navbar, setNavbar] = useState(false);
+    const [openFeaturesList, setFeaturesList] = useState(false);
 
     const changeBackground = () => {
         if (window.scrollY >= 900) {
@@ -53,6 +55,11 @@ const Navbar = () => {
                         </div>
                     </div>
                 )}
+            </div>
+            <div className="estate__navbar-dropDownList dropDownFeatures">
+                {
+                    openFeaturesList && <FeaturesList />
+                }
             </div>
         </div>
     )
