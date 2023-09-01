@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-real-estate/static/css/main.18e9a7f4.css",
-    "main.js": "/react-real-estate/static/js/main.7095ac05.js",
+    "main.css": "/react-real-estate/static/css/main.f8dcc918.css",
+    "main.js": "/react-real-estate/static/js/main.2f9aeb55.js",
     "static/media/dashboard.png": "/react-real-estate/static/media/dashboard.4c66543ea6172bc6f491.png",
     "static/media/house.jpeg": "/react-real-estate/static/media/house.2beb5d881b4e5b89d03c.jpeg",
     "static/media/sky.png": "/react-real-estate/static/media/sky.f30b1c55c1b6d15ae967.png",
@@ -17,11 +17,11 @@
     "static/media/play-button.svg": "/react-real-estate/static/media/play-button.f6c86dd385521624b6216d77076877e9.svg",
     "static/media/basiersquare-regular-webfont.woff": "/react-real-estate/static/media/basiersquare-regular-webfont.31d6cfe0d16ae931b73c.woff",
     "static/media/basiersquare-regular-webfont.woff2": "/react-real-estate/static/media/basiersquare-regular-webfont.31d6cfe0d16ae931b73c.woff2",
-    "main.18e9a7f4.css.map": "/react-real-estate/static/css/main.18e9a7f4.css.map",
-    "main.7095ac05.js.map": "/react-real-estate/static/js/main.7095ac05.js.map"
+    "main.f8dcc918.css.map": "/react-real-estate/static/css/main.f8dcc918.css.map",
+    "main.2f9aeb55.js.map": "/react-real-estate/static/js/main.2f9aeb55.js.map"
   },
   "entrypoints": [
-    "static/css/main.18e9a7f4.css",
-    "static/js/main.7095ac05.js"
+    "static/css/main.f8dcc918.css",
+    "static/js/main.2f9aeb55.js"
   ]
 }
