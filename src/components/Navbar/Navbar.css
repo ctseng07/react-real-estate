@@ -15,6 +15,7 @@
 }
 
 .estate__navbar.active {
+    padding: 0 2rem;
     background: var(--text-dark-grey);
     position: fixed;
 }
@@ -27,6 +28,10 @@
 .estate__navbar-logo img {
     max-width: 100%;
     height: auto;
+}
+
+.estate__navbar-logo:hover {
+    cursor: pointer;
 }
 
 .estate__navbar-links {

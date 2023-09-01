@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 
@@ -7,8 +8,8 @@ import './Navbar.css';
 
 const Menu = () => (
     <>
-        <p><a href='#home'>HOME</a></p>
-        <p><a href='#features'>FEATURES</a></p>
+        <p><Link to='/react-real-estate'>HOME</Link></p>
+        <p><Link to="/Detectors">FEATURES</Link></p>
         <p><a href='#about'>ABOUT</a></p>
         <p><a href='#login'>LOGIN/SIGNUP</a></p>
     </>
@@ -19,7 +20,7 @@ const Navbar = () => {
     const [estate__navbar, setNavbar] = useState(false);
 
     const changeBackground = () => {
-        if (window.scrollY >= 1000) {
+        if (window.scrollY >= 900) {
             setNavbar(true)
         } else {
             setNavbar(false);
@@ -29,10 +30,11 @@ const Navbar = () => {
     window.addEventListener('scroll', changeBackground);
 
     return (
-        // <div className="estate__navbar">
         <div className={estate__navbar ? "estate__navbar active" : "estate__navbar"}>
             <div className="estate__navbar-logo">
-                <img src={logo} alt="Safewatch" />
+                <Link to="/react-real-estate">
+                    <img src={logo} alt="Safewatch" />
+                </Link>
             </div>
             <div className="estate__navbar-links">
                 <div className="estate__navbar-links_container">
