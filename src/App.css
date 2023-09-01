@@ -12,18 +12,24 @@
     background: url('./assets/house.jpeg');
     background-position: center;
     background-size: cover;
-    background-repeat: repeat;
-    background-attachment: fixed;
+    /* background-repeat: repeat;
+    background-attachment: fixed; */
 }
 
-.content-bg {
-    background: var(--text-white);
+.contact__bg {
+    background: url('./assets/sky.png');
+    /* background-position: 0% 0%;
+    transform: translateY(-14.752%); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    /* height: 140%; */
 }
 
 /* TEXT */
 
 .p__futura {
-    color: var(--text-white);
     font-family: var(--font-base);
 }
 
@@ -34,7 +40,6 @@
 
 .p__basier {
     font-family: var(--font-alt);
-    color: var(--text-white);
 }
 
 .text__uppercase {

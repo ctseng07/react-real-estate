@@ -10,13 +10,14 @@
     padding: 1rem 2rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     position: absolute;
-    /* top: 0;
-    z-index: 1030; */
+    top: 0;
+    z-index: 1030;
 }
 
-/* .estate__navbar.active {
+.estate__navbar.active {
     background: var(--text-dark-grey);
-} */
+    position: fixed;
+}
 
 .estate__navbar-logo {
     max-width: 100px;
