@@ -1,15 +1,13 @@
-import React from 'react';
-import { Navbar } from '../../components';
-import { Footer } from '../../components';
+import MainLayout from '../../layout/MainLayout';
 
 import './Heatmaps.css';
 
 const Heatmaps = () => {
     return (
-        <div>
+        <MainLayout>
+            <div>Heatmaps</div>
+        </MainLayout>
+    );
+};
 
-        </div>
-    )
-}
-
-export default Heatmaps
+export default Heatmaps;
