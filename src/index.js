@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import { Detectors, Heatmaps, Integrations } from './pages';
+import { Detectors, Heatmaps, Integrations, Blog, LoginPage } from './pages';
 
 import {
     createBrowserRouter,
@@ -26,6 +26,14 @@ const router = createBrowserRouter([
     {
         path: "Integrations",
         element: <Integrations />,
+    },
+    {
+        path: "Blog",
+        element: <Blog />,
+    },
+    {
+        path: "LoginPage",
+        element: <LoginPage />,
     },
 ]);
 
