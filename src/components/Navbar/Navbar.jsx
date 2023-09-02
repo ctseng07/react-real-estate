@@ -6,6 +6,7 @@ import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../../assets/logo.png'
 import './Navbar.css';
 import FeaturesList from '../DropDownList/FeaturesList';
+import BlogList from '../DropDownList/BlogList';
 
 const Menu = () => (
     <>
@@ -14,7 +15,10 @@ const Menu = () => (
             <a href='#features'>FEATURES</a>
             <FeaturesList />
         </div>
-        <p><a href='#about'>ABOUT</a></p>
+        <div className="estate__featureList">
+            <a href='#about'>ABOUT</a>
+            <BlogList />
+        </div>
         <p><a href='#login'>LOGIN/SIGNUP</a></p>
     </>
 )
