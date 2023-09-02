@@ -7,22 +7,20 @@ import { Features } from './container';
 import { Features2 } from './container';
 import { Partners } from './container';
 
-
-import { Navbar } from './components';
-import { Footer } from './components';
 import './App.css';
+import MainLayout from './layout/MainLayout';
 
 const App = () => {
     return (
         <>
-            <Navbar />
-            <Header />
-            <About />
-            <Features />
-            <Features2 />
-            <Partners />
-            <Contact />
-            <Footer />
+            <MainLayout>
+                <Header />
+                <About />
+                <Features />
+                <Features2 />
+                <Partners />
+                <Contact />
+            </MainLayout>
         </>
     )
 };

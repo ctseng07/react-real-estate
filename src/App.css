@@ -1,3 +1,7 @@
+/* * {
+    border: 1px solid red;
+} */
+
 .section__padding {
     padding: 4rem 6rem;
 }
@@ -12,19 +16,14 @@
     background: url('./assets/house.jpeg');
     background-position: center;
     background-size: cover;
-    /* background-repeat: repeat;
-    background-attachment: fixed; */
 }
 
 .contact__bg {
     background: url('./assets/sky.png');
-    /* background-position: 0% 0%;
-    transform: translateY(-14.752%); */
     background-position: center;
     background-size: cover;
     background-repeat: repeat;
     background-attachment: fixed;
-    /* height: 140%; */
 }
 
 /* TEXT */
