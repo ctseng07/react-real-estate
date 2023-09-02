@@ -35,12 +35,16 @@
     letter-spacing: 0.2em;
     color: var(--text-white);
     font-size: 13px;
-    padding: .7rem 10rem;
+    padding-right: 10rem;
 }
 
 .estate__navbar-links_container {
     display: flex;
     gap: 30px;
+}
+
+.estate__navbar-links_container a {
+    padding: 1rem;
 }
 
 .estate__navbar-sidebar {
