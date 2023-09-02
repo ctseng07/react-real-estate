@@ -10,7 +10,7 @@ import BlogList from '../DropDownList/BlogList';
 
 const Menu = () => (
     <>
-        <p><Link to='/react-real-estate'>HOME</Link></p>
+        <Link to='/react-real-estate'>HOME</Link>
         <div className="estate__featureList">
             <a href='#features'>FEATURES</a>
             <FeaturesList />
@@ -19,7 +19,9 @@ const Menu = () => (
             <a href='#about'>ABOUT</a>
             <BlogList />
         </div>
-        <p><a href='#login'>LOGIN/SIGNUP</a></p>
+        {/* <div className="estate__loginPage"> */}
+        <Link to='/LoginPage'>LOGIN/SIGNUP</Link>
+        {/* </div> */}
     </>
 )
 
