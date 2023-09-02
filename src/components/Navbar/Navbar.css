@@ -15,7 +15,7 @@
 }
 
 .estate__navbar.active {
-    padding: 0 2rem;
+    padding: 1rem 2rem;
     background: var(--text-dark-grey);
     position: fixed;
 }
@@ -30,28 +30,17 @@
     height: auto;
 }
 
-.estate__navbar-logo:hover {
-    cursor: pointer;
-}
-
 .estate__navbar-links {
-    display: flex;
     font-family: var(--font-base);
     letter-spacing: 0.2em;
     color: var(--text-white);
     font-size: 13px;
-    gap: 30px;
-    padding: 10px;
-    padding-right: 100px;
+    padding: .7rem 10rem;
 }
 
 .estate__navbar-links_container {
     display: flex;
     gap: 30px;
-}
-
-.estate__navbar-login {
-    cursor: pointer;
 }
 
 .estate__navbar-sidebar {
@@ -67,10 +56,10 @@
 }
 
 .estate__navbar-sidebar_overlay {
-    position: absolute;
+    position: fixed;
     top: 40px;
     right: 0;
-    min-width: 210px;
+    min-width: 250px;
     background: var(--text-white);
     transition: .5s ease;
     margin-top: 1rem;
@@ -87,8 +76,6 @@
     font-size: 15px;
     font-weight: 400;
 }
-
-
 
 @media screen and (max-width: 1200px) {
     .estate__navbar {

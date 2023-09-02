@@ -3,5 +3,5 @@ import Footer from './Footer/Footer';
 
 export {
     Navbar,
-    Footer,
+    Footer
 };

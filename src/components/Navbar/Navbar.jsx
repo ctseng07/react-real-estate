@@ -10,7 +10,10 @@ import FeaturesList from '../DropDownList/FeaturesList';
 const Menu = () => (
     <>
         <p><Link to='/react-real-estate'>HOME</Link></p>
-        <p><Link to="/Detectors">FEATURES</Link></p>
+        <div className="estate__featureList">
+            <a href='#features'>FEATURES</a>
+            <FeaturesList />
+        </div>
         <p><a href='#about'>ABOUT</a></p>
         <p><a href='#login'>LOGIN/SIGNUP</a></p>
     </>
@@ -19,7 +22,6 @@ const Menu = () => (
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
     const [estate__navbar, setNavbar] = useState(false);
-    const [openFeaturesList, setFeaturesList] = useState(false);
 
     const changeBackground = () => {
         if (window.scrollY >= 900) {
@@ -55,11 +57,6 @@ const Navbar = () => {
                         </div>
                     </div>
                 )}
-            </div>
-            <div className="estate__navbar-dropDownList dropDownFeatures">
-                {
-                    openFeaturesList && <FeaturesList />
-                }
             </div>
         </div>
     )
