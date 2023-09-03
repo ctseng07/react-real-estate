@@ -41,6 +41,10 @@
     font-family: var(--font-alt);
 }
 
+.p__cerebri {
+    font-family: var(--font-cerebri);
+}
+
 .text__uppercase {
     text-transform: uppercase;
 }

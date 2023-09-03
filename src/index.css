@@ -5,9 +5,19 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Cerebri Sans';
+    src: url("../src/assets/fonts/Cerebri.Sans.Pro-www.Dfonts.org/Cerebri.Sans.Pro/CerebriSansPro-Bold.ttf") format("woff2"), url("../src/assets/fonts/Cerebri.Sans.Pro-www.Dfonts.org/Cerebri.Sans.Pro/CerebriSansPro-Bold.otf") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
 :root {
     --font-base: 'futura-pt', sans-serif;
     --font-alt: 'Basier Square', sans-serif;
+
+    --font-cerebri: 'cerebri sans', sans-serif;
+
 
     --color-primary: #e7a285;
     --footer-bg: #40383C;
