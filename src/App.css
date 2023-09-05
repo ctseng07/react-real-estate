@@ -26,6 +26,14 @@
     background-attachment: fixed;
 }
 
+.detector__bg {
+    background: url('./assets/noiseabstract.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
 /* TEXT */
 
 .p__futura {
