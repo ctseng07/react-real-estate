@@ -18,3 +18,16 @@
     max-width: 80%;
     text-align: center;
 }
+
+.estate__detectors-content {
+    padding: 4rem 6rem;
+}
+
+.estate__detectors-text {
+    display: flex;
+}
+
+.estate__detectors-icon_container img {
+    width: 41.41px;
+    height: 50px;
+}
