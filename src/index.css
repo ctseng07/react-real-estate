@@ -35,7 +35,9 @@
     --text-grey: #ffffff99;
     --text-dark-grey: #5B6674;
     --text-dark: #181b31;
-    --text-gray: #797b86
+    --text-gray: #797b86;
+    --header-dark: #060221;
+    --text-dark-gray: #828282;
 }
 
 *,
