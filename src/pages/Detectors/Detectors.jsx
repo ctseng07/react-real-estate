@@ -1,6 +1,7 @@
 import MainLayout from '../../layout/MainLayout';
 import icons from '../../constants/images';
-import video from '../../assets/video_placeholder.png';
+import { DemoVid } from '../../components';
+// import video from '../../assets/video_placeholder.png';
 
 import './Detectors.css';
 
@@ -62,8 +63,9 @@ const Detectors = () => {
             </div>
 
             <div className="estate__detectors-video">
-                <img src={video} alt="video" />
+                {/* <img src={video} alt="video" /> */}
             </div>
+            <DemoVid />
         </MainLayout>
     );
 };
