@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import { Detectors, Heatmaps, Integrations, Blog, LoginPage } from './pages';
+import { Detectors, Heatmaps, Integrations, Blog, LoginPage, DDNS } from './pages';
 
 import {
     createBrowserRouter,
@@ -34,6 +34,10 @@ const router = createBrowserRouter([
     {
         path: "LoginPage",
         element: <LoginPage />,
+    },
+    {
+        path: "DDNS",
+        element: <DDNS />,
     },
 ]);
 
