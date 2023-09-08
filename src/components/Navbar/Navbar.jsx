@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 
@@ -8,24 +8,30 @@ import './Navbar.css';
 import FeaturesList from '../DropDownList/FeaturesList';
 import BlogList from '../DropDownList/BlogList';
 
-const Menu = () => (
-    <>
-        <Link to='/react-real-estate'>HOME</Link>
-        <div className="estate__featureList">
-            <a href='#features'>FEATURES</a>
-            <FeaturesList />
-        </div>
-        <div className="estate__featureList">
-            <a href='#about'>ABOUT</a>
-            <BlogList />
-        </div>
-        {/* <div className="estate__loginPage"> */}
-        <Link to='/LoginPage'>LOGIN/SIGNUP</Link>
-        {/* </div> */}
-    </>
-)
+const Menu = () => {
+    const location = useLocation();
+
+    return (
+        <>
+            <Link to='/react-real-estate'>HOME</Link>
+            <div className="estate__featureList">
+                <a href='#features'>FEATURES</a>
+                <FeaturesList />
+            </div>
+            {location.pathname !== "/react-real-estate" ?
+                <Link to='/DDNS'>FREE DDNS</Link> : ""
+            }
+            <div className="estate__featureList">
+                <a href='#about'>ABOUT</a>
+                <BlogList />
+            </div>
+            <Link to='/LoginPage'>LOGIN/SIGNUP</Link>
+        </>
+    )
+}
 
 const Navbar = () => {
+
     const [toggleMenu, setToggleMenu] = useState(false);
     const [estate__navbar, setNavbar] = useState(false);
 
