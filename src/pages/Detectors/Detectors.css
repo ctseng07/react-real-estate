@@ -32,18 +32,22 @@
 
 .estate__detectors-text {
     color: var(--text-dark-gray);
-    margin-bottom: 1.3em;
     font-size: 16px;
     line-height: 1.9em;
+    min-width: 100%;
+    display: flex;
     gap: 2rem;
+}
+
+.estate__detectors-text p {
     width: min(90%, 65rem);
     display: grid;
-    grid-template-columns: 49% 48%;
+    grid-template-columns: 100%;
+    margin-bottom: 1.3em;
 }
 
 .estate__detectors-icon_container img {
     width: 41.41px;
-    height: 50px;
     margin-bottom: 1rem;
 }
 
