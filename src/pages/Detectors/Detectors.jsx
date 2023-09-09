@@ -63,9 +63,8 @@ const Detectors = () => {
             </div>
 
             <div className="estate__detectors-video">
-                {/* <img src={video} alt="video" /> */}
+                <DemoVid />
             </div>
-            <DemoVid />
         </MainLayout>
     );
 };

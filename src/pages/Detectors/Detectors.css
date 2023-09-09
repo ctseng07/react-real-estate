@@ -3,8 +3,7 @@
 }
 
 .estate__detectors-heading {
-    padding: 4rem 6rem;
-
+    padding: 6rem 6rem;
 }
 
 .estate__detectors-heading h1 {
@@ -27,7 +26,7 @@
     margin-bottom: 40px;
     color: var(--header-dark);
     line-height: 1.5em;
-    width: 50%;
+    width: 70%;
 }
 
 .estate__detectors-text {
@@ -82,31 +81,104 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .estate__detectors {
-        padding: 6rem 6rem;
+        padding: 6rem 4rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .estate__detectors {
+        padding: 6rem 4rem;
+    }
+
+    .estate__detectors-content h1 {
+        font-size: 40px;
+        width: 100%;
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 992px) {
     .estate__detectors-heading {
-        padding: 6rem;
+        padding: 6rem 3rem;
     }
 
     .estate__detectors-heading h1 {
-        max-width: 100%;
         font-size: 50px;
     }
 
     .estate__detectors-content h1 {
-        min-width: 80%;
+        font-size: 30px;
+        width: 100%;
     }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (max-width: 768px) {
+    .estate__detectors {
+        padding: 2rem 0;
+    }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+    .estate__detectors-heading {
+        padding: 5rem 0;
+        min-width: 100%;
+    }
+
+    .estate__detectors-heading h1 {
+        font-size: 60px;
+    }
+
+    .estate__detectors-content {
+        padding: 2rem 1rem;
+    }
+
+    .estate__detectors-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 0;
+        padding: 0;
+    }
+
+    .estate__detectors-iconbox {
+        width: min(90%, 75rem);
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 1rem;
+    }
+}
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+    .estate__detectors {
+        padding: 1rem 0;
+    }
+
+    .estate__detectors-heading {
+        padding: 4rem 0;
+    }
+
+    .estate__detectors-heading h1 {
+        font-size: 40px;
+    }
+
+    .estate__detectors-content {
+        padding: 1rem 0;
+    }
+
+    .estate__detectors-iconbox {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .estate__detectors-icon_container {
+        width: 100%;
+    }
+
+    .estate__detectors-icon_container h3 {
+        font-size: 20px;
+    }
+}
