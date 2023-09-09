@@ -1,13 +1,10 @@
-/* * {
+* {
     border: 1px solid red;
-} */
-
-.estate__detectors {
-    padding: 6rem 6rem;
 }
 
 .estate__detectors-heading {
     padding: 4rem 6rem;
+
 }
 
 .estate__detectors-heading h1 {
@@ -78,9 +75,34 @@
 }
 
 
-
-/* @media screen and (max-width: 768px) {
-    .estate__detectors-iconbox {
-        grid-auto-flow: column;
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .estate__detectors {
+        padding: 6rem 6rem;
     }
-} */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .estate__detectors-heading {
+        padding: 6rem;
+    }
+
+    .estate__detectors-heading h1 {
+        max-width: 100%;
+        font-size: 50px;
+    }
+
+    .estate__detectors-content h1 {
+        min-width: 80%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
