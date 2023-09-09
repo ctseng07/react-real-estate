@@ -1,0 +1,43 @@
+.demoVid {
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
+
+.demo_button {
+    font-size: 80px;
+    color: var(--text-white);
+    display: grid;
+    place-items: center;
+    height: 1em;
+    width: 1em;
+    border-radius: 50%;
+    border: none;
+    background-image: linear-gradient(to right bottom, rgb(71, 98, 255) 0%, rgb(255, 121, 142) 100%);
+    cursor: pointer;
+    transition: 0.3s;
+    animation: pulse 1.3s ease infinite;
+}
+
+.demo_button::before {
+    content: "";
+    display: inline-block;
+    border-left: 0.3em solid;
+    border-top: 0.18em solid transparent;
+    border-bottom: 0.18em solid transparent;
+    margin-right: -0.08em;
+}
+
+.demo_button:hover {
+    background-image: linear-gradient(to right, rgb(255, 121, 142) 0%, rgb(71, 98, 255) 100%);
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0em 0em 0em 0em hsla(250, 100%, 75%, 0.8);
+    }
+
+    100% {
+        box-shadow: 0em 0em 0em 0.3em hsla(250, 100%, 75%, 0);
+    }
+}

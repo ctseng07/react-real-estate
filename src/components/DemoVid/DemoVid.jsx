@@ -4,8 +4,8 @@ import './DemoVid.css'
 
 const DemoVid = () => {
     return (
-        <div className='DemoVid demo__bg'>
-            <button className='flex__center'>Play</button>
+        <div className='demoVid demo__bg'>
+            <button className='demo_button'></button>
         </div>
     )
 }
