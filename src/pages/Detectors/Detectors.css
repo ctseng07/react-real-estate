@@ -37,6 +37,7 @@
     display: flex;
     justify-content: center;
     gap: 2rem;
+    padding: 0 7rem;
 }
 
 .estate__detectors-text p {
@@ -61,6 +62,8 @@
 
 .estate__detectors-icon_container {
     max-width: 90%;
+    display: flex;
+    align-items: center;
     flex-direction: column;
 }
 

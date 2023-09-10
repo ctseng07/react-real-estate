@@ -24,37 +24,37 @@ const Detectors = () => {
             </div>
 
             <div className="estate__detectors-iconbox">
-                <div className="estate__detectors-icon_container flex__center">
+                <div className="estate__detectors-icon_container">
                     <img src={icons.science} alt="science_icon" />
                     <h3 className='p__neuzeit'>No rocket science</h3>
                     <p className='p__cerebri'>Adding your camera takes 30 seconds.</p>
                 </div>
 
-                <div className="estate__detectors-icon_container flex__center">
+                <div className="estate__detectors-icon_container">
                     <img src={icons.computer} alt="computer_icon" />
                     <h3 className='p__neuzeit'>Save your footage</h3>
                     <p className='p__cerebri'>Free footage backup for 14 days.</p>
                 </div>
 
-                <div className="estate__detectors-icon_container flex__center">
+                <div className="estate__detectors-icon_container">
                     <img src={icons.rocket} alt="rocket_icon" />
                     <h3 className='p__neuzeit'>Instant notifications</h3>
                     <p className='p__cerebri'>Get alerted in less than 3 seconds after the object is detected.</p>
                 </div>
 
-                <div className="estate__detectors-icon_container flex__center">
+                <div className="estate__detectors-icon_container">
                     <img src={icons.present} alt="present_icon" />
                     <h3 className='p__neuzeit'>Free trial</h3>
                     <p className='p__cerebri'>Try Safewatch risk free for the first 15 days.</p>
                 </div>
 
-                <div className="estate__detectors-icon_container flex__center">
+                <div className="estate__detectors-icon_container">
                     <img src={icons.contact} alt="contact_icon" />
                     <h3 className='p__neuzeit'>Customer support</h3>
                     <p className='p__cerebri'>If you're having any doubts or troubles we will gladly help you out.</p>
                 </div>
 
-                <div className="estate__detectors-icon_container flex__center">
+                <div className="estate__detectors-icon_container">
                     <img src={icons.update} alt="update_icon" />
                     <h3 className='p__neuzeit'>Free updates</h3>
                     <p className='p__cerebri'>With time Safewatch will get better, but the price will stay the same.</p>
