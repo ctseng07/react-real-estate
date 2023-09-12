@@ -40,6 +40,12 @@
     background-attachment: fixed;
 }
 
+.heatMaps__bg {
+    background: url('./assets/heatabstract.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
 /* TEXT */
 
 .p__futura {
@@ -69,6 +75,16 @@
 
 .text__underline {
     text-decoration: underline;
+}
+
+.SubHeading {
+    font-family: var(--font-neuzeit);
+    color: var(--text-white);
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1.4em;
+    max-width: 80%;
+    text-align: center;
 }
 
 p {
