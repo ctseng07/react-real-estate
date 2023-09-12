@@ -37,7 +37,7 @@
     display: flex;
     justify-content: center;
     gap: 2rem;
-    padding: 0 7rem;
+    /* padding: 0 7rem; */
 }
 
 .estate__detectors-text p {
@@ -110,6 +110,13 @@
         font-size: 50px;
     }
 
+    .estate__detectors-iconbox {
+        width: min(90%, 75rem);
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 1rem;
+    }
+
     .estate__detectors-content h1 {
         font-size: 30px;
         width: 100%;
@@ -144,12 +151,6 @@
         padding: 0;
     }
 
-    .estate__detectors-iconbox {
-        width: min(90%, 75rem);
-        display: grid;
-        grid-template-columns: 50% 50%;
-        gap: 1rem;
-    }
 }
 
 /* Extra small devices (phones, 600px and down) */
