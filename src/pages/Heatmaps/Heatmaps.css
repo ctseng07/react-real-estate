@@ -23,6 +23,7 @@
 .heatmaps-content_container {
     display: flex;
     padding: 4rem 0;
+    gap: 1rem;
 }
 
 .heatmaps-content_text {
