@@ -1,7 +1,8 @@
 import MainLayout from '../../layout/MainLayout';
 import icons from '../../constants/images';
+import SubHeading from '../../components/Subheading/SubHeading';
+
 import { DemoVid } from '../../components';
-// import video from '../../assets/video_placeholder.png';
 
 import './Detectors.css';
 
@@ -10,7 +11,8 @@ const Detectors = () => {
         <MainLayout>
             <div className="estate__detectors detector__bg">
                 <div className="estate__detectors-heading flex__center">
-                    <h1 className='p__neuzeit'>Cut through the noise and get alerted quicker</h1>
+                    {/* <h1 className='p__neuzeit'>Cut through the noise and get alerted quicker</h1> */}
+                    <SubHeading title="Cut through the noise and get alerted quicker" />
                 </div>
             </div>
 
@@ -59,12 +61,8 @@ const Detectors = () => {
                     <h3 className='p__neuzeit'>Free updates</h3>
                     <p className='p__cerebri'>With time Safewatch will get better, but the price will stay the same.</p>
                 </div>
-
             </div>
-
-            <div className="estate__detectors-video">
-                <DemoVid />
-            </div>
+            <DemoVid />
         </MainLayout>
     );
 };

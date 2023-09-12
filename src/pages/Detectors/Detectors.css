@@ -1,18 +1,9 @@
-* {
+/* * {
     border: 1px solid red;
-}
+} */
 
 .estate__detectors-heading {
     padding: 6rem 6rem;
-}
-
-.estate__detectors-heading h1 {
-    color: var(--text-white);
-    font-size: 60px;
-    font-weight: 600;
-    line-height: 1.4em;
-    max-width: 80%;
-    text-align: center;
 }
 
 .estate__detectors-content {
@@ -94,7 +85,7 @@
         padding: 6rem 4rem;
     }
 
-    .estate__detectors-content h1 {
+    .SubHeading {
         font-size: 40px;
         width: 100%;
     }
@@ -106,7 +97,7 @@
         padding: 6rem 3rem;
     }
 
-    .estate__detectors-heading h1 {
+    .SubHeading {
         font-size: 50px;
     }
 
@@ -134,7 +125,7 @@
         min-width: 100%;
     }
 
-    .estate__detectors-heading h1 {
+    .SubHeading {
         font-size: 60px;
     }
 
@@ -163,7 +154,7 @@
         padding: 4rem 0;
     }
 
-    .estate__detectors-heading h1 {
+    .SubHeading {
         font-size: 40px;
     }
 
