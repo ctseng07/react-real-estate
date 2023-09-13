@@ -1,0 +1,134 @@
+/* * {
+    border: 1px solid red;
+} */
+
+.integrations__heading {
+    padding: 6rem 6rem;
+}
+
+.integrations__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 4rem 6rem;
+}
+
+.integrations__content-container h1 {
+    font-size: 44px;
+    color: var(--header-dark);
+}
+
+.blue_text {
+    color: var(--text-blue)
+}
+
+.integrations__content-container p {
+    font-size: 16px;
+    color: var(--text-dark-gray);
+}
+
+.integrations__content-container img {
+    max-width: 100px;
+}
+
+.integrations__content-img {
+    width: 555px;
+}
+
+.integrations__content-img img {
+    width: 100%;
+}
+
+.integrations__iconBox-content {
+    margin: 5rem auto;
+    width: min(100%, 75rem);
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 1rem;
+}
+
+.integrations__icon-container {
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.integrations__icon-container h4 {
+    font-size: 24px;
+    color: var(--header-dark);
+}
+
+.integrations__icon-container p {
+    font-size: 16px;
+    color: var(--text-dark-gray);
+    text-align: center;
+}
+
+.integrations__icon-container img {
+    width: 41.41px;
+    margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 1200px) {
+    .integrations__content-container {
+        width: 50%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+    .integrations__content {
+        flex-direction: column;
+    }
+
+    .integrations__content-img {
+        display: none;
+    }
+
+    .integrations__iconBox-content {
+        margin: 5rem auto;
+        width: min(100%, 75rem);
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 1rem;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .integrations__heading {
+        padding: 2rem 0;
+    }
+
+    .integrations__content {
+        padding: 2rem 2rem;
+    }
+
+    .integrations__iconBox-content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .integrations__icon-container {
+        width: 100%;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .integrations__content {
+        padding: 1rem 1rem;
+    }
+
+    .integrations__content-container h1 {
+        text-align: center;
+    }
+
+}
