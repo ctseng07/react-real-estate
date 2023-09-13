@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/react-real-estate/static/css/main.d04cfe91.css",
-    "main.js": "/react-real-estate/static/js/main.30e77be2.js",
+    "main.css": "/react-real-estate/static/css/main.16e9b7de.css",
+    "main.js": "/react-real-estate/static/js/main.42fe895c.js",
     "static/media/heatabstract.jpg": "/react-real-estate/static/media/heatabstract.387939e82824123fc161.jpg",
+    "static/media/connection.jpg": "/react-real-estate/static/media/connection.e0ae5c7447ee9693fb0a.jpg",
     "static/media/noiseabstract.jpg": "/react-real-estate/static/media/noiseabstract.c6d7ffe0be52e294bc79.jpg",
     "static/media/dashboard.png": "/react-real-estate/static/media/dashboard.4c66543ea6172bc6f491.png",
     "static/media/house.jpeg": "/react-real-estate/static/media/house.2beb5d881b4e5b89d03c.jpeg",
@@ -12,10 +13,12 @@
     "static/media/zap-page.png": "/react-real-estate/static/media/zap-page.acd2abd617d48b8e7081.png",
     "static/media/CerebriSansPro-Bold.otf": "/react-real-estate/static/media/CerebriSansPro-Bold.46c66e8c2e7ec1753358.otf",
     "static/media/Neuzeit Grotesk W01 Regular.otf": "/react-real-estate/static/media/Neuzeit Grotesk W01 Regular.825a65296c253785a253.otf",
+    "static/media/logo_black.png": "/react-real-estate/static/media/logo_black.f4c6460d03c60264692d.png",
     "static/media/logo.png": "/react-real-estate/static/media/logo.8a52605dbdc8513b7317.png",
     "static/media/detect-img.png": "/react-real-estate/static/media/detect-img.05d6895c5d28df46307a.png",
     "static/media/zapier-logo.png": "/react-real-estate/static/media/zapier-logo.7fab47b867d11c9d93c5.png",
     "static/media/video_placeholder.png": "/react-real-estate/static/media/video_placeholder.0a7da8f523fdea108db1.png",
+    "static/media/connection_img.png": "/react-real-estate/static/media/connection_img.939f4b98b9a1efea9508.png",
     "static/media/biohazard-svgrepo-com.svg": "/react-real-estate/static/media/biohazard-svgrepo-com.3953bd246ccbca79e1906e62b677e310.svg",
     "static/media/rocket-svgrepo-com.svg": "/react-real-estate/static/media/rocket-svgrepo-com.644b849974ca93b9cdda36278af2937e.svg",
     "static/media/featured.svg": "/react-real-estate/static/media/featured.84cbd8dbf8f6a6ecdeb1958ccec78a73.svg",
@@ -30,11 +33,11 @@
     "static/media/play-button.svg": "/react-real-estate/static/media/play-button.f6c86dd385521624b6216d77076877e9.svg",
     "static/media/basiersquare-regular-webfont.woff": "/react-real-estate/static/media/basiersquare-regular-webfont.31d6cfe0d16ae931b73c.woff",
     "static/media/basiersquare-regular-webfont.woff2": "/react-real-estate/static/media/basiersquare-regular-webfont.31d6cfe0d16ae931b73c.woff2",
-    "main.d04cfe91.css.map": "/react-real-estate/static/css/main.d04cfe91.css.map",
-    "main.30e77be2.js.map": "/react-real-estate/static/js/main.30e77be2.js.map"
+    "main.16e9b7de.css.map": "/react-real-estate/static/css/main.16e9b7de.css.map",
+    "main.42fe895c.js.map": "/react-real-estate/static/js/main.42fe895c.js.map"
   },
   "entrypoints": [
-    "static/css/main.d04cfe91.css",
-    "static/js/main.30e77be2.js"
+    "static/css/main.16e9b7de.css",
+    "static/js/main.42fe895c.js"
   ]
 }
