@@ -46,6 +46,13 @@
     background-size: cover;
 }
 
+.integrations__bg {
+    background: url('./assets/connection.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
 /* TEXT */
 
 .p__futura {
@@ -94,3 +101,17 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
+@media only screen and (min-width: 1200px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
