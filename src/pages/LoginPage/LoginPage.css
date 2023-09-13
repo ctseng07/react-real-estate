@@ -1,0 +1,92 @@
+/* * {
+    border: 1px solid red;
+} */
+
+.loginPage__container {
+    flex-direction: column;
+}
+
+.loginPage__container img {
+    width: 356px;
+}
+
+.loginPage__input {
+    margin: 5rem;
+    width: 100%;
+    flex-direction: column;
+}
+
+.loginPage__input h1 {
+    font-size: 38px;
+    margin: 0 0 2rem;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.loginPage__input input {
+    border: 1px solid #D9D9D9;
+    margin: 1rem;
+    width: 100%;
+    padding: .5rem 1rem;
+}
+
+.loginPage__input a {
+    width: 100%;
+    margin-top: 1rem;
+    text-align: right;
+    color: #1070CA;
+    text-decoration: underline;
+}
+
+.loginPage__buttons {
+    margin-top: 1rem;
+    width: 100%;
+    text-align: right;
+}
+
+.loginPage__buttons button {
+    border: 1px solid #D9D9D9;
+    margin-top: 1rem;
+    padding: .5rem 2rem;
+}
+
+.loginPage__buttons button:first-child {
+    font-size: 14px;
+    color: var(--text-white);
+    background: #1890FF;
+    border-color: #1890FF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .12);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, .045);
+    margin-right: 1rem;
+}
+
+.loginPage__buttons button:nth-child(2) {
+    font-size: 14px;
+    background: var(--text-white);
+}
+
+.loginPage__input button:hover {
+    cursor: pointer;
+}
+
+.loginPage__buttons button:first-child:hover {
+    background: #1890FF;
+    opacity: .80;
+}
+
+.loginPage__buttons button:nth-child(2):hover {
+    border-color: #1070CA;
+    color: #1070CA;
+}
+
+.loginPage__input a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 390px) {
+    .loginPage {
+        padding: 1rem 2rem;
+    }
+}
