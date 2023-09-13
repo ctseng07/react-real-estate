@@ -33,7 +33,6 @@ const Integrations = () => {
                     </div>
                 </div>
 
-                {/* <div className="integrations__iconBox"> */}
                 <div className="integrations__iconBox-content">
                     <div className="integrations__icon-container">
                         <img src={icons.science} alt="science_icon" />
@@ -55,7 +54,6 @@ const Integrations = () => {
                             object, the specified action will instantly execute.</p>
                     </div>
                 </div>
-                {/* </div> */}
 
             </div>
             <DemoVid />
