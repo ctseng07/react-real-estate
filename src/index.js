@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import { Detectors, Heatmaps, Integrations, Blog, LoginPage, DDNS } from './pages';
+import { Detectors, Heatmaps, Integrations, Blog, BlogPage, LoginPage, DDNS } from './pages';
 
 import {
     createBrowserRouter,
@@ -30,6 +30,10 @@ const router = createBrowserRouter([
     {
         path: "Blog",
         element: <Blog />,
+    },
+    {
+        path: "BlogPage",
+        element: <BlogPage />,
     },
     {
         path: "LoginPage",
