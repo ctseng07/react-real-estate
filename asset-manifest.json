@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.css": "/react-real-estate/static/css/main.16e9b7de.css",
-    "main.js": "/react-real-estate/static/js/main.42fe895c.js",
+    "main.css": "/react-real-estate/static/css/main.f2367b34.css",
+    "main.js": "/react-real-estate/static/js/main.8bc87eee.js",
     "static/media/heatabstract.jpg": "/react-real-estate/static/media/heatabstract.387939e82824123fc161.jpg",
+    "static/media/bloghead.jpg": "/react-real-estate/static/media/bloghead.8c992971dbab60d0ff23.jpg",
     "static/media/connection.jpg": "/react-real-estate/static/media/connection.e0ae5c7447ee9693fb0a.jpg",
     "static/media/noiseabstract.jpg": "/react-real-estate/static/media/noiseabstract.c6d7ffe0be52e294bc79.jpg",
     "static/media/dashboard.png": "/react-real-estate/static/media/dashboard.4c66543ea6172bc6f491.png",
+    "static/media/gorilla.png": "/react-real-estate/static/media/gorilla.51a646c1be7e058177bb.png",
     "static/media/house.jpeg": "/react-real-estate/static/media/house.2beb5d881b4e5b89d03c.jpeg",
+    "static/media/wolf.png": "/react-real-estate/static/media/wolf.bdb45da4eeac5bc032d1.png",
     "static/media/CerebriSansPro-Bold.ttf": "/react-real-estate/static/media/CerebriSansPro-Bold.44aec4695dcaa4e4810f.ttf",
     "static/media/carheatmap.jpg": "/react-real-estate/static/media/carheatmap.4934d52ed32375605135.jpg",
     "static/media/sky.png": "/react-real-estate/static/media/sky.f30b1c55c1b6d15ae967.png",
@@ -24,20 +27,21 @@
     "static/media/featured.svg": "/react-real-estate/static/media/featured.84cbd8dbf8f6a6ecdeb1958ccec78a73.svg",
     "static/media/add-contact-svgrepo-com.svg": "/react-real-estate/static/media/add-contact-svgrepo-com.bf541e0a2af7e6b6cc8b2c8f132bc3ec.svg",
     "static/media/present-svgrepo-com.svg": "/react-real-estate/static/media/present-svgrepo-com.214af3fc833e9630081f0a801cfac57e.svg",
+    "static/media/arrow-down.svg": "/react-real-estate/static/media/arrow-down.8135f668c25aa6a2c0e0860d2dbb005b.svg",
     "static/media/lightning.svg": "/react-real-estate/static/media/lightning.3086eec1ce395ea96f0d08cb88d7d008.svg",
     "static/media/status-scheduled-svgrepo-com.svg": "/react-real-estate/static/media/status-scheduled-svgrepo-com.5f272f8c69290daec2ae208036672731.svg",
     "static/media/computer-svgrepo-com.svg": "/react-real-estate/static/media/computer-svgrepo-com.1b5c8e2bcf3280b161f88fa82e6e0f7c.svg",
     "index.html": "/react-real-estate/index.html",
     "static/media/checkmark.svg": "/react-real-estate/static/media/checkmark.432c52d98e6e9f695e1b02a2099fedd3.svg",
-    "static/media/right-arrow.svg": "/react-real-estate/static/media/right-arrow.2e25bafd3b367272d4f48987c8457bc0.svg",
     "static/media/play-button.svg": "/react-real-estate/static/media/play-button.f6c86dd385521624b6216d77076877e9.svg",
+    "static/media/right-arrow.svg": "/react-real-estate/static/media/right-arrow.b7fd07edd5b4b07629f8185b7f841d04.svg",
     "static/media/basiersquare-regular-webfont.woff": "/react-real-estate/static/media/basiersquare-regular-webfont.31d6cfe0d16ae931b73c.woff",
     "static/media/basiersquare-regular-webfont.woff2": "/react-real-estate/static/media/basiersquare-regular-webfont.31d6cfe0d16ae931b73c.woff2",
-    "main.16e9b7de.css.map": "/react-real-estate/static/css/main.16e9b7de.css.map",
-    "main.42fe895c.js.map": "/react-real-estate/static/js/main.42fe895c.js.map"
+    "main.f2367b34.css.map": "/react-real-estate/static/css/main.f2367b34.css.map",
+    "main.8bc87eee.js.map": "/react-real-estate/static/js/main.8bc87eee.js.map"
   },
   "entrypoints": [
-    "static/css/main.16e9b7de.css",
-    "static/js/main.42fe895c.js"
+    "static/css/main.f2367b34.css",
+    "static/js/main.8bc87eee.js"
   ]
 }
