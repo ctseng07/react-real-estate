@@ -39,6 +39,7 @@
 
 .dropDownMenu a:hover {
     background-color: var(--text-gray);
+    opacity: 0.5;
     color: var(--text-dark)
 }
 
