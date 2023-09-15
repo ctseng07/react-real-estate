@@ -1,3 +1,15 @@
 /* * {
     border: 1px solid red;
 } */
+
+.ddns__content {
+    padding: 6rem 4rem;
+}
+
+.ddns__header-img {
+    width: 444px;
+}
+
+.ddns__header-img img {
+    width: 100%;
+}
