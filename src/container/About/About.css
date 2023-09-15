@@ -45,11 +45,14 @@
 
 .estate__about-button {
     max-width: 100%;
+    gap: 1rem;
 }
 
 .estate__about-button img {
     width: 15px;
-    height: auto;
+    height: 10px;
+    margin-left: .5rem;
+    rotate: -90deg;
 }
 
 .estate__about-info_button:hover {

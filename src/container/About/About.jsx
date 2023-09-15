@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Detect from '../../assets/detect-img.png';
-import Arrow from '../../assets/right-arrow.svg';
+import arrowDown from '../../assets/arrow-down.svg';
 import './About.css';
 
 const About = () => {
@@ -28,7 +28,7 @@ const About = () => {
 
                     <div className="estate__about-button">
                         <button className='estate__about-info_button text__uppercase p__futura'>Start Now!
-                            <img src={Arrow} alt='right-arrow_img' />
+                            <img src={arrowDown} alt='right-arrow_img' />
                         </button>
                     </div>
                 </div>
