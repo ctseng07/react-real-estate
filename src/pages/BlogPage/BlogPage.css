@@ -1,6 +1,6 @@
-/* * {
+* {
     border: 1px solid red;
-} */
+}
 
 .blogPage__heading {
     padding: 10rem 8rem;
@@ -76,9 +76,9 @@
     gap: 1rem;
 }
 
-.blogPage__content-img img {
+/* .blogPage__content-img img {
     width: 80%;
-}
+} */
 
 .blogPage__content-img p {
     font-style: italic;
@@ -94,10 +94,15 @@
         padding: 0 8rem;
     }
 
-    .blogPage__content-info h4,
-    h3,
-    p {
-        width: 70%;
+    .blogPage__content-img img {
+        width: 80%;
+    }
+
+
+    .blogPage__content-info p,
+    h4,
+    h3 {
+        width: 100%;
     }
 }
 
@@ -110,6 +115,10 @@
     h3,
     p {
         min-width: 100%;
+    }
+
+    .blogPage__content-img img {
+        width: 100%;
     }
 }
 
