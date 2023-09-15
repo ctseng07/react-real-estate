@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-real-estate/static/css/main.f2367b34.css",
-    "main.js": "/react-real-estate/static/js/main.8bc87eee.js",
+    "main.css": "/react-real-estate/static/css/main.ff9cf9b1.css",
+    "main.js": "/react-real-estate/static/js/main.3a049b41.js",
     "static/media/heatabstract.jpg": "/react-real-estate/static/media/heatabstract.387939e82824123fc161.jpg",
     "static/media/bloghead.jpg": "/react-real-estate/static/media/bloghead.8c992971dbab60d0ff23.jpg",
     "static/media/connection.jpg": "/react-real-estate/static/media/connection.e0ae5c7447ee9693fb0a.jpg",
@@ -9,6 +9,9 @@
     "static/media/dashboard.png": "/react-real-estate/static/media/dashboard.4c66543ea6172bc6f491.png",
     "static/media/gorilla.png": "/react-real-estate/static/media/gorilla.51a646c1be7e058177bb.png",
     "static/media/house.jpeg": "/react-real-estate/static/media/house.2beb5d881b4e5b89d03c.jpeg",
+    "static/media/ddns_img.jpg": "/react-real-estate/static/media/ddns_img.a513c10abf128b206da9.jpg",
+    "static/media/fiber.jpeg": "/react-real-estate/static/media/fiber.d06b8017ea6e0d014d5c.jpeg",
+    "static/media/graph.png": "/react-real-estate/static/media/graph.a743d44fe78b3caf93af.png",
     "static/media/wolf.png": "/react-real-estate/static/media/wolf.bdb45da4eeac5bc032d1.png",
     "static/media/CerebriSansPro-Bold.ttf": "/react-real-estate/static/media/CerebriSansPro-Bold.44aec4695dcaa4e4810f.ttf",
     "static/media/carheatmap.jpg": "/react-real-estate/static/media/carheatmap.4934d52ed32375605135.jpg",
@@ -37,11 +40,11 @@
     "static/media/right-arrow.svg": "/react-real-estate/static/media/right-arrow.b7fd07edd5b4b07629f8185b7f841d04.svg",
     "static/media/basiersquare-regular-webfont.woff": "/react-real-estate/static/media/basiersquare-regular-webfont.31d6cfe0d16ae931b73c.woff",
     "static/media/basiersquare-regular-webfont.woff2": "/react-real-estate/static/media/basiersquare-regular-webfont.31d6cfe0d16ae931b73c.woff2",
-    "main.f2367b34.css.map": "/react-real-estate/static/css/main.f2367b34.css.map",
-    "main.8bc87eee.js.map": "/react-real-estate/static/js/main.8bc87eee.js.map"
+    "main.ff9cf9b1.css.map": "/react-real-estate/static/css/main.ff9cf9b1.css.map",
+    "main.3a049b41.js.map": "/react-real-estate/static/js/main.3a049b41.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2367b34.css",
-    "static/js/main.8bc87eee.js"
+    "static/css/main.ff9cf9b1.css",
+    "static/js/main.3a049b41.js"
   ]
 }
