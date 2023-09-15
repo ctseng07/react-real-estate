@@ -24,11 +24,9 @@
     color: var(--text-dark-gray);
     font-size: 16px;
     line-height: 1.9em;
-    min-width: 100%;
     display: flex;
     justify-content: center;
     gap: 2rem;
-    /* padding: 0 7rem; */
 }
 
 .estate__detectors-text p {

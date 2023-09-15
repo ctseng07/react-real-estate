@@ -100,8 +100,8 @@
 
 
     .blogPage__content-info p,
-    h4,
-    h3 {
+    .blogPage__content-info h4,
+    .blogPage__content-info h3 {
         width: 100%;
     }
 }
@@ -111,10 +111,10 @@
         padding: 3rem 2rem;
     }
 
+    .blogPage__content-info p,
     .blogPage__content-info h4,
-    h3,
-    p {
-        min-width: 100%;
+    .blogPage__content-info h3 {
+        width: 100%;
     }
 
     .blogPage__content-img img {
@@ -128,10 +128,10 @@
         padding: 3rem 2rem;
     }
 
+    .blogPage__content-info p,
     .blogPage__content-info h4,
-    h3,
-    p {
-        min-width: 100%;
+    .blogPage__content-info h3 {
+        width: 100%;
     }
 
     .blogPage__content-img {
