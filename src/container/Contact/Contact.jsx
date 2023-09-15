@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './Contact.css';
 
@@ -12,7 +13,9 @@ const Contact = () => {
                 </div>
 
                 <div className="estate__contact-content_info">
-                    <button className='estate__contact-button p__futura'>Create an account</button>
+                    <Link to='/LoginPage'>
+                        <button className='estate__contact-button p__futura'>Create an account</button>
+                    </Link>
                     <p className='p_basier'>Do you have a question?</p>
                     <p className='p_basier'>Don't hesitate!</p>
                     <p className='p_basier'>hello@usesafewatch.com</p>
