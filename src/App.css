@@ -64,6 +64,12 @@
     background-size: cover;
 }
 
+.ddns__bg {
+    background: url('./assets/ddns_img.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
 
 /* TEXT */
 
