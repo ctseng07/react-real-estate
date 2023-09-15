@@ -52,6 +52,18 @@
     background-size: cover;
 }
 
+.blog__bg {
+    background: url('./assets/bloghead.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.blogPage__bg {
+    background: url('./assets/gorilla.png');
+    background-position: top;
+    background-size: cover;
+}
+
 
 /* TEXT */
 

@@ -1,12 +1,13 @@
-import React from 'react';
+import React from 'react'
+import SecondLayout from '../../layout/SecondLayout';
 
 import './DDNS.css';
 
 const DDNS = () => {
     return (
-        <div>
-            hello
-        </div>
+        <SecondLayout>
+
+        </SecondLayout>
     )
 }
 
