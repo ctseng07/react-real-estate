@@ -24,7 +24,7 @@ const Dash_Nav = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
 
     return (
-        <div className="ddns__navbar">
+        <div className="estate__navbar">
             <div className="estate__navbar-logo">
                 <Link to="/react-real-estate">
                     <img src={logo} alt="Safewatch" />

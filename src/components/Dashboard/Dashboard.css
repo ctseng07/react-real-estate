@@ -1,0 +1,13 @@
+/* * {
+    border: 1px solid red;
+} */
+
+.estate__navbar-links_container button {
+    font-family: var(--font-base);
+    color: var(--text-white);
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    background: #0287ed;
+    border-radius: .5em;
+    border: none;
+}
