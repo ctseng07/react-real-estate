@@ -17,6 +17,10 @@
     gap: 2rem;
 }
 
+.blogPage__heading-container p {
+    min-width: 100%;
+}
+
 .blogPage__heading-container p:first-child {
     font-size: 12px;
     color: #FFFFFF80;
@@ -26,10 +30,6 @@
 .blogPage__heading-container p:nth-child(2) {
     font-size: 16px;
     color: var(--text-white)
-}
-
-.blogPage__content {
-    padding: 0 8rem;
 }
 
 .blogPage__content-info {
@@ -44,9 +44,20 @@
 .blogPage__content-info p {
     font-size: 16px;
     color: var(--text-dark-gray);
-    margin: 0 0 20.8px;
+    margin: 1rem 0 20.8px;
     line-height: 1.9em;
-    width: 70%;
+}
+
+.blogPage__content-info h3 {
+    margin: 2.5rem 0 1.5rem;
+    font-size: 32px;
+    color: var(--header-dark);
+}
+
+.blogPage__content-info h4 {
+    margin: 2rem 0 1.5rem;
+    font-size: 26px;
+    color: var(--header-dark);
 }
 
 .has-dropCap:first-letter {
@@ -66,7 +77,11 @@
 }
 
 .blogPage__content-img img {
-    width: 100%;
+    width: 80%;
+}
+
+.blogPage__content-img p {
+    font-style: italic;
 }
 
 @media screen and (min-width: 1200px) {
@@ -74,6 +89,66 @@
         margin-top: -6.8181818182em;
         background-color: white;
     }
+
+    .blogPage__content {
+        padding: 0 8rem;
+    }
+
+    .blogPage__content-info h4,
+    h3,
+    p {
+        width: 70%;
+    }
 }
 
-@media screen and (max-width: 1200px) {}
+@media screen and (max-width: 1200px) {
+    .blogPage__content-info {
+        padding: 3rem 2rem;
+    }
+
+    .blogPage__content-info h4,
+    h3,
+    p {
+        min-width: 100%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .blogPage__content-info {
+        padding: 3rem 2rem;
+    }
+
+    .blogPage__content-info h4,
+    h3,
+    p {
+        min-width: 100%;
+    }
+
+    .blogPage__content-img {
+        max-width: 100%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .blogPage__heading {
+        padding: 6rem 3rem;
+    }
+
+    .blogPage__heading-info {
+        flex-direction: column;
+        gap: 0;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .blogPage__heading-content h3 {
+        font-size: 36px;
+    }
+
+    .blogPage__content-info {
+        padding: 2rem 1rem;
+    }
+}
