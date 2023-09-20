@@ -3,13 +3,77 @@
 } */
 
 .ddns__content {
-    padding: 6rem 4rem;
+    display: flex;
+    justify-content: center;
+    padding: 10rem 4rem;
+}
+
+.ddns__header-info {
+    color: var(--text-white);
+    padding: 0 1rem;
+    max-width: 35%;
+}
+
+.ddns__header-info h1 {
+    font-size: 48px;
+    margin-bottom: 2rem;
+}
+
+.ddns__header-info p {
+    font-size: 16px;
+    margin: 0 0 60px;
+    padding: 0 80px 0 0;
+    line-height: 1.9em;
+}
+
+.ddns__social svg {
+    width: 50px;
 }
 
 .ddns__header-img {
-    width: 444px;
+    margin-left: 10rem;
+}
+
+.ddns__header-img img:nth-child(2) {
+    margin-top: -85%;
+    margin-left: -40%;
+    display: block;
+    position: relative;
+    max-width: 380px;
+}
+
+.ddns__header-img img:first-child {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-top: 60px;
+    max-width: 444px;
 }
 
 .ddns__header-img img {
-    width: 100%;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.ddns__info-container {
+    padding: 6rem 4rem;
+}
+
+.ddns__container-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #cdf2d6;
+    border-radius: 50%;
+
+}
+
+.ddns__container-icon img {
+    width: 25px;
+    height: 25px;
+}
+
+.ddns__info-wrapper {
+    display: flex;
+    justify-content: space-around;
 }
