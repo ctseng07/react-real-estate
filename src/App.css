@@ -68,8 +68,9 @@
     background: url('./assets/ddns_img.jpg');
     background-position: center;
     background-size: cover;
+    border-bottom-right-radius: 25%;
+    border-bottom-left-radius: 25%;
 }
-
 
 /* TEXT */
 
