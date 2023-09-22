@@ -67,11 +67,15 @@ const DDNS = () => {
                     <p className='p__cerebri'>
                         <Link to='/LoginPage'>https://dashboard.usesafewatch.com/</Link></p>
 
-                    {/* <div className="ddns__download-buttons"> */}
-                    <button className='button text__uppercase'>Apple <br />macos</button>
-                    <button className='button text__uppercase'>windows <br />(coming soon)</button>
-                    {/* </div> */}
+                    <div className="ddns__download-buttons">
+                        <button className='button text__uppercase'>Apple <br />macos</button>
+                        <button className='button text__uppercase'>windows <br />(coming soon)</button>
+                    </div>
                 </div >
+            </div>
+
+            <div className="ddns__footer">
+
             </div>
         </SecondLayout >
     )
