@@ -65,7 +65,7 @@
     height: 60px;
     background-color: #cdf2d6;
     border-radius: 50%;
-
+    margin-bottom: 1rem;
 }
 
 .ddns__container-icon img {
@@ -75,5 +75,78 @@
 
 .ddns__info-wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.ddns__info-wrapper h2 {
+    color: var(--text-dark);
+    font-size: 35px;
+    padding: 0 80px 0 0;
+}
+
+.ddns__info-wrapper p {
+    color: #7C7E8E;
+    font-size: 16px;
+}
+
+.ddns__info-left h2 {
+    margin: 0 72px 30px 0;
+}
+
+.ddns__info-right h2 {
+    margin: 43.75px 72px 30px 0;
+}
+
+.text-dash,
+.download-dash {
+    margin-top: 4.5rem;
+    height: 1px;
+    width: 50px;
+    background: #FF798E;
+}
+
+.ddns__download {
+    color: var(--text-white);
+    position: relative;
+    text-align: center;
+}
+
+.ddns__download img {
+    border-radius: 20px;
+    max-width: 60%;
+}
+
+.ddns__download-content {
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.download-dash {
+    margin: 0 0 2rem 0;
+}
+
+.ddns__download-content h2 {
+    margin: 43.75px 0 26.25px;
+    padding: 0 24px;
+    font-size: 35px;
+}
+
+.ddns__download-content p {
+    font-size: 16px;
+    line-height: .5rem;
+}
+
+/* .ddns__download-buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+} */
+
+.ddns__download-content button:first-child {
+    margin-top: 5rem;
 }
