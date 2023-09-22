@@ -7,6 +7,8 @@ import Fiber from '../../assets/fiber.jpeg';
 import Graph from '../../assets/graph.png';
 
 import Files from '../../assets/files.jpeg';
+import ddns_footer from '../../assets/bg-17.jpeg';
+import Logo from '../../assets/logo.png';
 
 import Chronometer from '../../assets/chronometer-stopwatch-svgrepo-com.svg';
 
@@ -74,8 +76,15 @@ const DDNS = () => {
                 </div >
             </div>
 
-            <div className="ddns__footer">
-
+            <div className="ddns__footer ddns__footer-bg">
+                <div className='ddns__footer-content'>
+                    <img src={Logo} alt="logo__img" />
+                    <div className="ddns__social">
+                        <FiFacebook />
+                        <FiTwitter />
+                        <FiLinkedin />
+                    </div>
+                </div>
             </div>
         </SecondLayout >
     )

@@ -1,6 +1,6 @@
-* {
+/* * {
     border: 1px solid red;
-}
+} */
 
 .ddns__content {
     display: flex;
@@ -172,4 +172,25 @@
 
 .ddns__download-buttons button:hover {
     transform: translateY(-0.25em);
+}
+
+.ddns__footer {
+    margin-top: -15%;
+    padding: 6rem 4rem;
+}
+
+.ddns__footer-content {
+    margin-top: 8rem;
+    padding: 6rem 4rem;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ddns__footer-content img {
+    width: 150px;
+}
+
+.ddns__footer-content svg {
+    color: var(--text-white);
 }
