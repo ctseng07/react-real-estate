@@ -1,11 +1,5 @@
-/* * {
+* {
     border: 1px solid red;
-} */
-
-.ddns__content {
-    display: flex;
-    justify-content: center;
-    padding: 10rem 4rem;
 }
 
 .ddns__header-info {
@@ -124,6 +118,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 100%;
 }
 
 .download-dash {
@@ -145,7 +140,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 5rem;
-    min-width: 150px;
+    max-width: 150px;
     gap: 2rem;
 }
 
@@ -180,7 +175,7 @@
 }
 
 .ddns__footer-content {
-    margin-top: 8rem;
+    margin-top: 10rem;
     padding: 6rem 4rem;
     position: relative;
     display: flex;
@@ -194,3 +189,51 @@
 .ddns__footer-content svg {
     color: var(--text-white);
 }
+
+@media only screen and (min-width: 1200px) {
+    .ddns__content {
+        display: flex;
+        justify-content: center;
+        padding: 10rem 4rem;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .ddns__download-content {
+
+        max-width: 60%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+    .ddns__content {
+        padding: 6rem 4rem;
+    }
+
+    .ddns__header-info {
+        max-width: 100%;
+    }
+
+    .ddns__header-img {
+        display: none;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .ddns__info-wrapper {
+        flex-direction: column;
+        gap: 3rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .ddns__info-wrapper h2 {
+        font-size: 28px;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}

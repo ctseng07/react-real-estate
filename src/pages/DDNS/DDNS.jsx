@@ -7,7 +7,6 @@ import Fiber from '../../assets/fiber.jpeg';
 import Graph from '../../assets/graph.png';
 
 import Files from '../../assets/files.jpeg';
-import ddns_footer from '../../assets/bg-17.jpeg';
 import Logo from '../../assets/logo.png';
 
 import Chronometer from '../../assets/chronometer-stopwatch-svgrepo-com.svg';
